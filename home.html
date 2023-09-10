@@ -17,16 +17,16 @@
       <a href="home.html">LIFESTYLE</a>
       <nav aria-label="other litfestyle pages" class="flex-container">
         <ul class="flex-container">
-          <li> <a href="http://">Home</a> </li>
-          <li> <a href="http://">About</a> </li>
-          <li> <a href="http://">Articles</a> </li>
-          <li> <a href="http://">Contact Us</a> </li>
+          <li> <a href="home.html">Home</a> </li>
+          <li> <a href="home.html">About</a> </li>
+          <li> <a href="home.html">Articles</a> </li>
+          <li> <a href="home.html">Contact Us</a> </li>
         </ul>
         <ul class="flex-container" id="social-media">
-          <li> <a href="http://"><i class="fa-brands fa-facebook"></i></a> </li>
-          <li> <a href="http://"><i class="fa-brands fa-twitter"></i></a> </li>
-          <li> <a href="http://"><i class="fa-brands fa-youtube"></i></a> </li>
-          <li> <a href="http://"><i class="fa-brands fa-pinterest"></i></a> </li>
+          <li> <a href="home.html"><i class="fa-brands fa-facebook"></i></a> </li>
+          <li> <a href="home.html"><i class="fa-brands fa-twitter"></i></a> </li>
+          <li> <a href="home.html"><i class="fa-brands fa-youtube"></i></a> </li>
+          <li> <a href="home.html"><i class="fa-brands fa-pinterest"></i></a> </li>
         </ul>
         <form action="get">
           <button><i class="fa-solid fa-magnifying-glass"></i></button>
@@ -241,9 +241,9 @@
     </section>
 
     <section aria-label="middle page news">
-      <article>
+      <article id="middle-img">
         <img src="assets/pics/middle.png" alt="lifestyle">
-        <div>
+        <div id="middle-img-content" class="flex-container">
           <ul>
             <li>TRAVEL</li>
           </ul>
@@ -255,17 +255,17 @@
         </div>
       </article>
     </section>
-    <section aria-label="Edtors pick's">
+    <section aria-label="Edtors pick's" id="editors-pick">
       <h2>Editors's Pick</h2>
-      <div>
+      <div id="editors-pick-container" class="flex-container">
         <article>
-          <div>
+          <div class="img-container">
             <img src="assets/pics/11.jpg" alt="lifestyle">
             <ul>
               <li>WORK</li>
             </ul>
           </div>
-          <div>
+          <div class="article-description">
             <time datetime="2021-08-08">08.08.2021</time>
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -274,13 +274,13 @@
           </div>
         </article>
         <article>
-          <div>
+          <div class="img-container">
             <img src="assets/pics/12.jpg" alt="lifestyle">
             <ul>
               <li>WORK</li>
             </ul>
           </div>
-          <div>
+          <div class="article-description">
             <time datetime="2021-08-08">08.08.2021</time>
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -292,36 +292,42 @@
     </section>
   </main>
   <footer>
-    <div>
-      <h4>
-        Contact the Publisher
-      </h4>
-      <a href="#">rubajkanaan@gmail.com</a>
-      <a href="#">+972595012642</a>
-    </div>
-    <div>
-      <h4>
-        Explorate
-      </h4>
-      <ul>
-        <li>About</li>
-        <li>Partners</li>
-        <li>Advertise</li>
-        <li>Membership</li>
-      </ul>
-    </div>
-    <div>
-      <h4>
-        Connections
-      </h4>
-      <nav aria-label="social media pages">
+    <section aria-label="footer section" class="flex-container">
+      <div>
+        <h4>
+          Contact the Publisher
+        </h4>
+        <p>rubajkanaan@gmail.com</p>
+        <p>+972595012642</p>
+      </div>
+      <div>
+        <h4>
+          Explorate
+        </h4>
         <ul>
-          <li> <a href="http://"><i class="fa-brands fa-facebook"></i></a> </li>
-          <li> <a href="http://"><i class="fa-brands fa-twitter"></i></a> </li>
-          <li> <a href="http://"><i class="fa-brands fa-youtube"></i></a> </li>
-          <li> <a href="http://"><i class="fa-brands fa-pinterest"></i></a> </li>
+          <li>About</li>
+          <li>Partners</li>
+          <li>Advertise</li>
+          <li>Membership</li>
         </ul>
-      </nav>
+      </div>
+      <div>
+        <h4>
+          Connections
+        </h4>
+        <nav aria-label="social media pages" >
+          <ul class="flex-container">
+            <li> <a href="home.html"><i class="fa-brands fa-facebook"></i></a> </li>
+            <li> <a href="home.html"><i class="fa-brands fa-twitter"></i></a> </li>
+            <li> <a href="home.html"><i class="fa-brands fa-youtube"></i></a> </li>
+            <li> <a href="home.html"><i class="fa-brands fa-pinterest"></i></a> </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <div id="footer-end" class="flex-container">
+      <p>2023 | Publisher Studio</p>
+      <p><a href="home.html">Subscribe Now</a></p>
     </div>
   </footer>
   <script src="https://kit.fontawesome.com/ffa569c6d7.js" crossorigin="anonymous"></script>
